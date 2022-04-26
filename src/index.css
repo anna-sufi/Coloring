@@ -1,0 +1,56 @@
+@import "../node_modules/normalize.css/normalize.css";
+
+* {
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Nunito", "Arial", "Helvetica", sans-serif;
+}
+
+.container {
+	padding: 20px calc(50% - 500px);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	margin: 0 10px;
+	border: 1px solid;
+
+}
+
+.folds {
+	display: flex;
+	margin-left: 10px;
+}
+.fold {
+	border: 1px solid;
+	padding: 5px;
+	width: 100px;
+}
+
+.inp {
+
+	padding: 5px;
+	}
+
+span {
+	margin: 5px;
+}
+
+.result {
+	width: 250px;
+	height: 150px;
+	border: 1px solid;
+
+}
